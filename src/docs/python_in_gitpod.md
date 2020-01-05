@@ -8,7 +8,7 @@ Gitpod comes with great support for Python builtin. Still, depending on your par
 Have a super cool GUI application you are building with wxPython? Want to run it in Gitpod? Please take a look at [JesterOrNot/Gitpod-PythonGUI-Example](https://github.com/JesterOrNot/Gitpod-PythonGUI-Example)
 
 Here is an exmaple .gitpod.Dockerfile
-```docker
+```dockerfile
 FROM gitpod/workspace-full-vnc:latest
 
 USER root
