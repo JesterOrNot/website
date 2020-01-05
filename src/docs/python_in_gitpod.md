@@ -15,7 +15,7 @@ USER root
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-# Install WXPython Dependencies
+# Install wxPython Dependencies
 RUN apt-get -q update \
     && apt-get install -yq \
         freeglut3-dev \
@@ -32,7 +32,7 @@ RUN apt-get -q update \
         libgtk2.0-dev \
     && sudo rm -rf /var/lib/apt/lists/*
 
-# Add wxpython itself
+# Add wxPython itself
 
 USER gitpod
 
