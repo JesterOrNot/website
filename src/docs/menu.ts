@@ -129,6 +129,10 @@ export const MENU: MenuEntry[] = [
             M(
                 "Go",
                 "go-in-gitpod"
+            ),
+            M(
+                "C++",
+                "cpp-in-gitpod"
             )
         ]
     ),
